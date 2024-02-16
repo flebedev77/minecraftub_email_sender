@@ -1,0 +1,17 @@
+{
+  "name": "minecraftub_email_sender",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "reAuth": "cd auth & echo hello > token.json & del token.json & node auth.js",
+    "removeToken": "cd auth & del token.json & echo nothing > token.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.9.9"
+  }
+}
